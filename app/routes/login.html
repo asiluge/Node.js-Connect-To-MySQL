@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录网站</title>
+<link rel="shortcut icon" type="image/x-icon" href="../public/images//5.jpg" media="screen" />
+<style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:13px;
+            background-color: gainsboro;
+        }
+        .bg{
+            width:392px;
+            height:589px;
+            margin:100px auto;
+            background:url(../public/images/log_block.png) no-repeat center;
+        }
+        .bg_top{
+            height: 280px;
+        }
+        .ur{
+            height:37px;
+            border:0;
+            color: #bebfb6;
+            width:242px;
+            margin:4px 78px;
+            background:url(../public/images/user.png) no-repeat;
+            padding-left:10px;
+            font-size:16pt;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .pw{
+            height:37px;
+            border:0;
+            color:#666;
+            width:242px;
+            margin:4px 78px;
+            background:url(../public/images/password.png) no-repeat;
+            padding-left:10px;
+            font-size:16pt;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .bn1{
+            height:37px;
+            border:0;
+            color: #ffffff;
+            width:242px;
+            margin:4px 78px;
+            background:url(../public/images/confirm.png) no-repeat;
+            padding-left:10px;
+            font-size:16pt;
+            font-family:Arial, Helvetica, sans-serif;
+            }
+        .bn2{
+            height:37px;
+            border:0;
+            color: #ffffff;
+            width:242px;
+            margin:4px 78px;
+            background:url(../public/images//reg.png) no-repeat;
+            padding-left:10px;
+            font-size:16pt;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+<form ACTION="login" id="login" method="POST">
+  <div class="bg">
+        <div class="bg_top"></div>
+        <div>
+            <div>
+                <input name="username" type="text" class="ur" size="16" />
+                <input name="password" type="password"  class="pw" size="16" />
+                <input type="submit" value="登录" class="bn1" />
+                <a href="reg.html"><input type="button" value="注册" class="bn2"/></a>
+            </div>
+        </div>
+</div>
+</form>
+</body>
+</html>

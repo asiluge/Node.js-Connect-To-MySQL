@@ -1,0 +1,69 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册用户</title>
+<link rel="shortcut icon" type="image/x-icon" href="../public/images//5.jpg" media="screen" />
+<style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:13px;
+            background-color: gainsboro;
+        }
+        .bg{
+            width:392px;
+            height:589px;
+            margin:100px auto;
+            background:url(../public/images/reg_block.png) no-repeat center;
+        }
+      .bg_top{
+            height: 280px;
+        }
+        .ur{
+            height:37px;
+            border:0;
+            color: #bebfb6;
+            width:242px;
+            margin:4px 78px;
+            background:url(../public/images/user.png) no-repeat;
+            padding-left:10px;
+            font-size:16pt;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .pw{
+            height:37px;
+            border:0;
+            color:#666;
+            width:242px;
+            margin:4px 78px;
+            background:url(../public/images/password.png) no-repeat;
+            padding-left:10px;
+            font-size:16pt;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .bn1{
+            height:37px;
+            border:0;
+            color: #ffffff;
+            width:242px;
+            margin:4px 78px;
+            background:url(../public/images/confirm.png) no-repeat;
+            padding-left:10px;
+            font-size:16pt;
+            font-family:Arial, Helvetica, sans-serif;
+            }
+</style>
+</head>
+
+<body>
+<form id="post" action="/reg" method="POST">
+  <div class="bg">
+    <div class="bg_top"></div>
+        <div>
+            <input class="ur" type="text" name="username" size="16" />  <br>
+            <input class="pw" type="password" name="password" size="16" />
+            <input type="submit" value="Submit" class="bn1" />
+        </div>
+ </div>
+</form>
+</body>
+</html>

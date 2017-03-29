@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>主页</title>
+</head>
+<body>
+<form id="get" action="/process_get" method="GET">
+First Name: <input type="text" name="first_name">  <br>
+Last Name: <input type="text" name="last_name">
+<input type="submit" value="Submit">
+</form>
+
+
+<form id="upload" action="/file_upload" method="post" enctype="multipart/form-data">
+<input type="file" name="image" size="50" />
+<br />
+<input type="submit" value="上传文件" />
+
+<a href="login.html">登录</a>
+<a href="reg.html">注册</a>
+
+</form>
+
+</body>
+</html>
